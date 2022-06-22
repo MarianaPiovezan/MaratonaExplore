@@ -12,7 +12,6 @@ body{
 }
 
 .caixa{
-
     width: 80%;
     max-width: 400px;
     margin-top: 30px;
@@ -57,7 +56,7 @@ button{
 }
 
 button:hover{
-    filter: brightness(1.2);
+    filter: brightness(1.4);
     cursor: pointer;
 }
 
@@ -67,3 +66,20 @@ button:hover{
     transition: opacity 1s;
 }
 
+
+@media  screen and (max-width: 480px){
+   
+    .caixa  {
+        width: 90%;
+    
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    p, button, input{
+        font-size: 20px;
+    }
+
+}
